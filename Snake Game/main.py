@@ -4,9 +4,10 @@ from food import Food
 from scoreboard import Score
 import time
 
-
+WIDTH = 1280
+HEIGHT = 720
 screen = Screen()
-screen.setup(width=1280, height=720)
+screen.setup(WIDTH, HEIGHT)
 screen.bgcolor("#dfcfbe")
 screen.title("Snake Game")
 screen.tracer(0)
